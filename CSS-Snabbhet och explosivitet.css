@@ -1,0 +1,127 @@
+
+body{background-color: #416194;
+    display: auto;
+    grid-template-columns: 25% 50% 25%;
+    flex: 1;
+    margin: 0px;
+   
+}
+
+div{
+    font-size: 20px;
+}
+
+button {
+    background-color: #4c8bf5; 
+    color: #fff; 
+    padding: 5px 10px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2b5dcd; 
+    transform: scale(1.05);
+  }
+
+   h1{
+    color:white;
+   text-align: center;
+   }
+
+   h2{
+    margin: 15px;
+   }
+
+   h3{
+    text-align: center;
+   }
+   
+   p{
+    margin: 15px;
+    text-align: justify;
+   }
+
+   li{
+    margin: 10px;
+    text-align: justify;
+
+   }
+   
+   main{
+    background-color: #ffffff; 
+    color: #333333; 
+    /*width: 50%;*/
+    margin: auto;
+    height: auto;
+    border: 6px solid white;
+
+   }
+
+   .leftaside{
+    background-color: #416194; 
+    color: #ffffff; 
+    width: 100%;
+    min-width: 325px;
+    /*border: 6px solid;
+    border-right: none;*/
+    margin-top: 0%;
+    background-image: url('p100851673.png'); /* Add background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    /*background-size: cover; /* Cover the entire left aside with the background image */
+    background-size:contain;
+    height: 420px;
+    position: sticky;
+    top: 0px;
+  }
+   
+   .rightaside{
+    background-color: #416194; 
+    color: #ffffff; 
+    width: 20%;
+    min-width: 319px;
+    float: right;
+    margin-top: 0%;
+    position: sticky;
+    top: 0;
+   
+   }
+
+   .rightaside img{
+    width: 100%;
+   }
+
+
+   header {
+    background-color: #3c5c8f; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border: 6px solid #f5f5f5;
+    margin: 0px;
+    
+}
+   
+
+   footer{
+    background-color: #3c5c8f; 
+    color: #fff; 
+    text-align: center;
+    margin: 0px;
+    border: 6px solid;
+   }
+
+   .container {
+    position: relative;
+  }
+
+#aside{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+  nav{
+    position: sticky;
+    top: 0px; 
+  }
+
